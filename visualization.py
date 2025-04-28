@@ -40,4 +40,4 @@ fig.update_layout(
 fig.update_traces(marker=dict(size=5, opacity=0.8))
 
 # Save the plot as an HTML file
-fig.write_html("fragments_knowledge_graph.html")
+fig.write_html("fragments_embeddings.html")
