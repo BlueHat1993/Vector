@@ -1,6 +1,7 @@
 import pdfplumber
 import os
 import tiktoken 
+import logging
 
 
 def read_pdf(file_path):
@@ -20,6 +21,10 @@ def read_pdf(file_path):
         text = ""
         for page in pdf.pages:
             text += page.extract_text() + "\n"
+    if text:
+        logging.info(f"PDF file {file_path} read successfully.")
+    else:
+        logging.warning(f"No text found in the PDF file {file_path}.")
     return text
 
 
@@ -60,6 +65,7 @@ def chunk_text(text, chunk_size=1000, overlap=200):
         start += chunk_size - overlap
     
     # Return the list of text chunks
+    logging.info(f"Text chunked into {len(chunks)} chunks.")
     return chunks
 
 
