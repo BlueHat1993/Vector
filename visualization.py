@@ -14,6 +14,8 @@ docs = collection.get(include=['embeddings'])['ids']
 data = collection.get(include=['documents'])['documents']
 
 print(docs)
+for embedding in embeddings:
+    print(embedding)
 
 # Reduce the embedding dimensionality
 pca = PCA(n_components=3)
