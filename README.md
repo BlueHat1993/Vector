@@ -6,7 +6,7 @@ A labor of love and a piece of art, this project brings Karl Marx’s seminal te
 
 ## 🧠 Project Overview
 
-This project performs semantic embedding and vectorized storage of *The Fragments on Machines*—a prophetic excerpt from Karl Marx’s *Grundrisse*—into a [ChromaDB](https://www.trychroma.com/) vector database. It leverages a Retrieval-Augmented Generation (RAG) pipeline to enable intelligent querying and dialogue over the text.
+This project performs semantic embedding and vectorized storage of *The Fragments on Machines*—a prophetic excerpt from Karl Marx’s *Grundrisse* , written back in 1857 —into a [ChromaDB](https://www.trychroma.com/) vector database. It leverages a Retrieval-Augmented Generation (RAG) pipeline to enable intelligent querying and dialogue over the text.
 
 A custom-built visualization engine complements the system, allowing users to trace the logic of RAG-based document retrieval, with future extensions planned for interactive query path tracing and conceptual lineage tracking.
 
