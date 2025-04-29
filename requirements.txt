@@ -3,3 +3,4 @@ tiktoken
 python-dotenv
 chromadb
 google-genai
+google-adk
